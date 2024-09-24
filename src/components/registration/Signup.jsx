@@ -27,9 +27,9 @@ function Signup() {
   }
   return (
     <>
-      <section className="mainbg">
+      <section className="mainbg h-svh flex justify-center">
         <div className="h-[60vh] m-auto flex justify-center items-center">
-          <div className="scndbg form h-[25rem] w-[85%] md:w-[20rem] m-auto p-8 gap-3 rounded-md flex flex-col justify-center">
+          <div className="scndbg form h-full w-full md:w-[20rem] m-auto p-8 gap-3 rounded-md flex flex-col justify-center">
             <h1 className="font-bold text-2xl text-center mb-4 primarytext">
               Signup Here
             </h1>
@@ -37,13 +37,15 @@ function Signup() {
               onSubmit={handleSubmit(onSubmit)}
               className="flex justify-center  w-full "
             >
-              <div className="w-64 text-black gap-2 flex flex-col">
+              <div className="w-64 gap-2 flex flex-col">
                 <Input
                   {...register("name")}
                   autocomplete="off"
                   type="name"
                   label="Name"
-                  className="h-10 text-black"
+                  className="h-10"
+                  variant="underlined"
+                  color=""
                 />
 
                 <Input
@@ -52,6 +54,8 @@ function Signup() {
                   type="email"
                   label="Email"
                   className="h-10"
+                  variant="underlined"
+                  color=""
                 />
 
                 <Input
@@ -59,6 +63,8 @@ function Signup() {
                   label="Password"
                   className="rounded-sm h-10"
                   type="password"
+                  variant="underlined"
+                  color=""
                 />
 
                 {/* <Input

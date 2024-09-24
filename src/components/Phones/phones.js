@@ -241,15 +241,15 @@ export const phones = [
     price: "147000",
     brand: "Apple",
     model: "iPhone 15 Pro Max",
-    network: "GSM / CDMA / HSPA / EVDO / LTE / 5G",
-    dimensions: "159.9 x 76.7 x 8.3 mm",
-    weight: "221 g (7.80 oz)",
     displayType:
       "LTPO Super Retina XDR OLED | 120Hz I HDR10 | Dolby Vision | 2000 nits",
     displaySize: "6.7 inches",
+    dimensions: "159.9 x 76.7 x 8.3 mm",
+    weight: "221 g (7.80 oz)",
+    network: "GSM / CDMA / HSPA / EVDO / LTE / 5G",
     chipset: "Apple A17 Pro (3 nm)",
     cpu: "Hexa-core",
-    ram:'8GB',
+    ram: "8GB",
     memory: "256GB | 512GB | 1TB",
     mainCamera:
       "48 MP(wide) | 12 MP (periscope telephoto) | 12 MP (ultrawide) | TOF 3D LiDAR scanner (depth) |Dual-LED dual-tone flash, HDR (photo/panorama) | 4K, 1080p, Dolby Vision HDR , ProRes, Cinematic mode , 3D (spatial) video",
@@ -274,7 +274,7 @@ export const phones = [
     displaySize: "6.7 inches",
     chipset: "Apple A16 Bionic (4 nm)",
     cpu: "Hexa-core",
-    ram:'6GB',
+    ram: "6GB",
     memory: "128GB | 256GB | 512GB",
     mainCamera:
       "48 MP (wide) | 12 MP (ultrawide) | Dual-LED dual-tone flash, HDR (photo/panorama) | 4K@24/25/30/60fps, 1080p, HDR, Dolby Vision HDR , Cinematic mode",
@@ -299,7 +299,7 @@ export const phones = [
     displaySize: "6.1 inches",
     chipset: "Apple A17 Pro (3 nm)",
     cpu: "Hexa-core",
-    ram:'6GB',
+    ram: "6GB",
     memory: "256GB | 512GB | 1TB",
     mainCamera:
       "48 MP(wide) | 12 MP (periscope telephoto) | 12 MP (ultrawide) | TOF 3D LiDAR scanner (depth) |Dual-LED dual-tone flash, HDR (photo/panorama) | 4K, 1080p, Dolby Vision HDR , ProRes, Cinematic mode , 3D (spatial) video",
@@ -323,7 +323,7 @@ export const phones = [
     displaySize: "6.1 inches",
     chipset: "Apple A16 Bionic",
     cpu: "Hexa-core",
-    ram:'6GB',
+    ram: "6GB",
     memory: "128GB 6GB RAM | 256GB 6GB RAM | 512GB 6GB RAM",
     mainCamera:
       "48 MP (wide) | 12 MP (ultrawide) | Dual-LED dual-tone flash, HDR | 4K@24/25/30/60fps, 1080p, HDR, Dolby Vision HDR , Cinematic mode",
@@ -347,7 +347,7 @@ export const phones = [
     displaySize: "6.1 inches",
     chipset: "Apple A16 Bionic",
     cpu: "Hexa-core",
-    ram:'6GB',
+    ram: "6GB",
     memory: "128GB 6GB RAM | 256GB 6GB RAM | 512GB 6GB RAM",
     mainCamera:
       "48 MP (wide) | 12 MP (ultrawide) | Dual-LED dual-tone flash, HDR | 4K@24/25/30/60fps, 1080p, HDR, Dolby Vision HDR , Cinematic mode",
@@ -371,7 +371,7 @@ export const phones = [
     displaySize: "6.1 inches",
     chipset: "Apple A16 Bionic",
     cpu: "Hexa-core",
-    ram:'6GB',
+    ram: "6GB",
     memory: "128GB 6GB RAM | 256GB 6GB RAM | 512GB 6GB RAM",
     mainCamera:
       "48 MP (wide) | 12 MP (ultrawide) | Dual-LED dual-tone flash, HDR | 4K@24/25/30/60fps, 1080p, HDR, Dolby Vision HDR , Cinematic mode",
@@ -396,7 +396,7 @@ export const phones = [
     displaySize: "6.7 inches",
     chipset: "Apple A16 Bionic (4 nm)",
     cpu: "Hexa-core",
-    ram:'6GB',
+    ram: "6GB",
     memory: "128GB | 256GB | 512GB",
     mainCamera:
       "48 MP (wide) | 12 MP (ultrawide) | Dual-LED dual-tone flash, HDR (photo/panorama) | 4K@24/25/30/60fps, 1080p, HDR, Dolby Vision HDR , Cinematic mode",
@@ -421,7 +421,7 @@ export const phones = [
     displaySize: "6.1 inches",
     chipset: "Apple A17 Pro (3 nm)",
     cpu: "Hexa-core",
-    ram:'6GB',
+    ram: "6GB",
     memory: "256GB | 512GB | 1TB",
     mainCamera:
       "48 MP(wide) | 12 MP (periscope telephoto) | 12 MP (ultrawide) | TOF 3D LiDAR scanner (depth) |Dual-LED dual-tone flash, HDR (photo/panorama) | 4K, 1080p, Dolby Vision HDR , ProRes, Cinematic mode , 3D (spatial) video",
@@ -445,7 +445,7 @@ export const phones = [
     displaySize: "6.1 inches",
     chipset: "Apple A16 Bionic",
     cpu: "Hexa-core",
-    ram:'6GB',
+    ram: "6GB",
     memory: "128GB 6GB RAM | 256GB 6GB RAM | 512GB 6GB RAM",
     mainCamera:
       "48 MP (wide) | 12 MP (ultrawide) | Dual-LED dual-tone flash, HDR | 4K@24/25/30/60fps, 1080p, HDR, Dolby Vision HDR , Cinematic mode",
@@ -469,7 +469,7 @@ export const phones = [
     displaySize: "6.1 inches",
     chipset: "Apple A16 Bionic",
     cpu: "Hexa-core",
-    ram:'6GB',
+    ram: "6GB",
     memory: "128GB 6GB RAM | 256GB 6GB RAM | 512GB 6GB RAM",
     mainCamera:
       "48 MP (wide) | 12 MP (ultrawide) | Dual-LED dual-tone flash, HDR | 4K@24/25/30/60fps, 1080p, HDR, Dolby Vision HDR , Cinematic mode",
@@ -493,7 +493,7 @@ export const phones = [
     displaySize: "6.1 inches",
     chipset: "Apple A16 Bionic",
     cpu: "Hexa-core",
-    ram:'6GB',
+    ram: "6GB",
     memory: "128GB 6GB RAM | 256GB 6GB RAM | 512GB 6GB RAM",
     mainCamera:
       "48 MP (wide) | 12 MP (ultrawide) | Dual-LED dual-tone flash, HDR | 4K@24/25/30/60fps, 1080p, HDR, Dolby Vision HDR , Cinematic mode",
@@ -504,3 +504,34 @@ export const phones = [
       "Li-Ion 3349 mAh | Non-removable | Wired Charging |15W wireless (MagSafe) 15W wireless (Qi2) | 4.5W reverse wired",
   },
 ];
+// export const headphone=[
+//   {
+//     id:'0',
+//     name:'',
+//     brand:'',
+//     encStatus:'',
+//     bluetooth:'',
+//     cargingInterface:'',
+//     model:'',
+//     calling:'',
+//     coltrol:'',
+//     waterRasistance:'',
+//     playTime:'',
+//     batteryInfo:'',
+//   }
+// ],
+
+// export const watch=[
+//   {
+//     id:'',
+//     name:'',
+//     appSupport:'',
+//     feature:'',
+//     connectivity:'',
+//     display:'',
+//     waterResistance:'',
+//     battery:'',
+
+//   }
+// ]
+

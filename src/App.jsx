@@ -23,7 +23,16 @@ import Infinix from "./components/Phones/Infinix";
 import Profile from "./components/pages/Profile/Profile";
 import ProfileDashboard from "./components/pages/Profile/ProfileDashboard";
 import FavouriteGadget from "./components/pages/Profile/FavouriteGadget";
+import Admin from "./components/pages/AdminDashboard/Admin";
 import LikedPosts from "./components/pages/Profile/LikedPosts";
+import AllProducts from "./components/pages/AdminDashboard/AllProducts";
+import AddProducts from "./components/pages/AdminDashboard/AddProducts";
+import AllBlogs from "./components/pages/AdminDashboard/AllBlogs";
+import AddBlogs from "./components/pages/AdminDashboard/AddBlogs";
+import AddProductsCatagories from "./components/pages/AdminDashboard/AddProductsCatagories";
+import AddPhones from "./components/pages/AdminDashboard/AddPhones";
+import AddWatch from "./components/pages/AdminDashboard/AddWatch";
+import AddHeadphone from "./components/pages/AdminDashboard/AddHeadphone";
 function App() {
   return (
     <>
@@ -45,15 +54,30 @@ function App() {
                 path="/profile/favourite-gadgets"
                 element={<FavouriteGadget />}
               />
-              <Route
-                path="/profile/liked-posts"
-                element={<LikedPosts />}
-              />
+              <Route path="/profile/liked-posts" element={<LikedPosts />} />
             </Route>
           </Route>
           <Route element={<OtherLayout />}>
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
+            <Route path="/admin" element={<Admin />}>
+              <Route index element={<AllProducts />} />
+              <Route index element={<AllProducts />} />
+              <Route path="/admin/add-products" element={<AddProducts />}>
+                <Route index element={<AddPhones />} />
+
+                <Route
+                  path="/admin/add-products/watch"
+                  element={<AddWatch />}
+                />
+                <Route
+                  path="/admin/add-products/headphone"
+                  element={<AddHeadphone />}
+                />
+              </Route>
+              <Route path="/admin/all-blogs" element={<AllBlogs />} />
+              <Route path="/admin/add-blogs" element={<AddBlogs />} />
+            </Route>
           </Route>
         </Routes>
       </Router>

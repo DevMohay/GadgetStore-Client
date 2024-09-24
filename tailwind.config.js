@@ -10,7 +10,5 @@ export default {
     extend: [],
   },
   darkMode: "class",
-  plugins: [
-    require('daisyui'),
-    nextui()],
+  plugins: [nextui()],
 };

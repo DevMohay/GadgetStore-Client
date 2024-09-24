@@ -18,9 +18,9 @@ function Login() {
 
   return (
     <>
-      <section className="mainbg">
-        <div className="h-[60vh] m-auto flex justify-center items-center">
-          <div className="scndbg form h-[22rem] w-[85%] md:w-[20rem] m-auto p-8 gap-3 rounded-md flex flex-col justify-center">
+      <section className="mainbg h-svh flex justify-center">
+        <div className="h-[60vh] m-auto flex justify-center  items-center">
+          <div className="scndbg form h-full w-full md:w-[20rem] m-auto p-8 gap-3 rounded-md flex flex-col justify-center">
             <h1 className="font-bold text-2xl text-center mb-4 primarytext">
               Login Here
             </h1>
@@ -34,11 +34,15 @@ function Login() {
                   type="email"
                   label="Email"
                   className="rounded-none h-10 mb-4"
+                  variant="underlined"
+                  color=""
                 />
 
                 <Input
                   {...register("password")}
                   label="Password"
+                  variant="underlined"
+                  color=""
                   className="rounded-sm mb-4 h-10"
                   endContent={
                     <button
